@@ -1,0 +1,14 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-shadow: 10px red;
+}
+h2{
+    color: green;
+    text-decoration: underline;
+}
+em{
+    color: blue;
+}

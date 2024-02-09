@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    animation-name: translation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes translation{
+    0%{
+        rotate: 0deg;
+        translate: 0 0;
+    }
+    100%{
+        rotate: 40deg;
+        translate: 100px 100px;
+    }
+}

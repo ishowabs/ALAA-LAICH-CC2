@@ -1,0 +1,20 @@
+#boite{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: gg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes gg{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 50PX;
+    }
+    100%{
+        left: 100PX;
+    }
+}

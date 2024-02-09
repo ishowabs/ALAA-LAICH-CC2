@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: chocolate;
+    padding: 10PX;
+}
+a{
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 30PX;
+    right: -1000PX;
+    color: whitesmoke;
+
+}
+.pp{
+    margin-right: 1200PX;
+    color: black;
+}
